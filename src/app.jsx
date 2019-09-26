@@ -21,8 +21,9 @@ class App extends Component {
       render(){
         return ( 
           <div className='App'>
-            <jumbotron>
-              <div>
+          
+              <div className="container">
+              
               <h1>San Diego Top Spots</h1>
               <h4>A list of top 30 places to see in San Diego, California</h4>
              <div>
@@ -35,8 +36,9 @@ class App extends Component {
               location={topspot.location} />
               )) }</pre>
               </div>
+            
           </div>
-          </jumbotron>
+         
           </div>
         );
       }
