@@ -1,0 +1,8 @@
+h3 {background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  
+}
+
+.btn-primary.raised:active, .btn-primary.raised.active {
+	background: #33a6cc;
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;}
